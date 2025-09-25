@@ -1,6 +1,6 @@
 {
   "name": "test-reports",
-  "homepage": "https://github.com/RomanAdriel/playwright-ts-bp",
+  "homepage": "https://github.com/RomanAdriel/allure-reports-app",
   "private": false,
   "version": "0.0.0",
   "type": "module",
