@@ -41,9 +41,9 @@ const readDirectoryRecursive = (dirPath, currentLevel = 0, maxLevel = 2) => {
 };
 
 const generateReportsList = () => {
-  const publicPath = path.join(__dirname, '../public');
-  const reportsPath = path.join(publicPath, 'reports');
-  const assetsPath = path.join(publicPath, '../src/assets');
+  const assetsPath = path.join(__dirname, '../src/assets');
+  const reportsPath = path.join(__dirname, '../src/reports');
+
   
   try {
     const reports = readDirectoryRecursive(reportsPath, 0, 2);
