@@ -19,7 +19,7 @@ const App = () => {
   };
 
   const handleFolderClick = (folderName: string) => {
-    const reportUrl = `./reports/${currentEnvironment}/${folderName}/index.html`;
+    const reportUrl = `/src/reports/${currentEnvironment}/${folderName}/index.html`;
     window.open(reportUrl, '_blank');
   };
 
